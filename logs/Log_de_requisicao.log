@@ -1,0 +1,12 @@
+2025-04-25	17:28:51	29961c19-cb52-4d0e-98db-9b7dc5a67d2f	GET	/	undefined
+2025-04-25	17:28:56	f45b01eb-2875-4933-9391-a72923e405ff	GET	/	undefined
+2025-04-25	17:29:14	e41658e2-52ba-4fd4-b36b-a778aebf6e5e	POST	/cadastrar	undefined
+2025-04-25	17:29:17	381a64e9-6810-49e4-8506-d75bc9ff51f1	GET	/	undefined
+2025-04-25	17:36:20	a852da50-e2be-47ca-92af-daa2a233f378	GET	/	undefined
+2025-04-25	17:36:29	7e656206-240b-47c0-a107-765555265db6	POST	/cadastrar	undefined
+2025-04-27	01:10:32	00e7c626-3f13-4e62-b112-e6c9c40130ee	POST	/cadastrar	undefined
+2025-04-27	01:10:36	9046f159-52e4-4c91-9182-766d629ff1c4	GET	/	undefined
+2025-04-27	01:11:38	cd0d4a50-a097-4c52-a077-afb99c349b85	DELETE	/deletar:f43dbedc-b234-40cc-a663-a12bffa29c51	undefined
+2025-04-27	01:11:41	a2170536-8b7f-4760-9da2-2fe788d0e842	DELETE	/deletar:f43dbedc-b234-40cc-a663-a12bffa29c51	undefined
+2025-04-27	01:12:45	1756c0fe-8951-480d-9dc0-fb6288577fdd	DELETE	/deletar/f43dbedc-b234-40cc-a663-a12bffa29c51	undefined
+2025-04-27	01:12:50	50ce0254-8bb3-4f3b-9be6-4e26c8710edf	GET	/	undefined
