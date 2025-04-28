@@ -10,3 +10,8 @@
 2025-04-27	01:11:41	a2170536-8b7f-4760-9da2-2fe788d0e842	DELETE	/deletar:f43dbedc-b234-40cc-a663-a12bffa29c51	undefined
 2025-04-27	01:12:45	1756c0fe-8951-480d-9dc0-fb6288577fdd	DELETE	/deletar/f43dbedc-b234-40cc-a663-a12bffa29c51	undefined
 2025-04-27	01:12:50	50ce0254-8bb3-4f3b-9be6-4e26c8710edf	GET	/	undefined
+2025-04-28	20:19:53	c0345c7b-d6aa-4933-bbde-56f011de9f16	GET	/	undefined
+2025-04-28	20:19:57	1a50cfeb-fcfa-46ac-ba1f-0673553405ea	POST	/cadastrar	undefined
+2025-04-28	20:20:52	f64dcf38-7e88-4576-8106-8440d4f0808b	PUT	//atualizar/5d8a87ed-b024-4a87-9b0c-4af867bd8afd	undefined
+2025-04-28	20:21:39	cf293ad7-73fb-41e1-834f-ffe5dddc0756	PUT	/atualizar/5d8a87ed-b024-4a87-9b0c-4af867bd8afd	undefined
+2025-04-28	20:21:52	550c3027-2c52-4fdc-8a12-c41f0146bcdc	GET	/	undefined

@@ -20,6 +20,25 @@ class BlogController {
     }
 
 
+    atualizarComentario(req,res){
+        const { id } = req.params;
+        const { titulo, conteudo, autor, data } = req.body;
+
+        if (!titulo || !conteudo || !autor || !data) {
+            return res.status(400).json({ error: "Todos os campos são obrigatórios." });
+        }
+
+        const comentarioIndex = Blog.comentarios.findIndex(comentario => comentario.id === id);
+
+        if (comentarioIndex === -1) {
+            return res.status(404).json({ error: "Comentário não encontrado." });
+        }
+
+        Blog.comentarios[comentarioIndex] = { ...Blog.comentarios[comentarioIndex], titulo, conteudo, autor, data };
+        res.status(200).json({ message: "Comentário atualizado com sucesso!", comentario: Blog.comentarios[comentarioIndex] });
+    }
+
+
     DeletarComentario(req,res){
         const { id } = req.params;
         const comentarioIndex = Blog.comentarios.findIndex(comentario => comentario.id === id);

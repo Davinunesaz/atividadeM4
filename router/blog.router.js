@@ -7,6 +7,8 @@ comentario.get("/", blogController.getComentarios);
 
 comentario.post("/cadastrar", blogController.CadastrarComentario);
 
+comentario.put("/atualizar/:id", blogController.atualizarComentario);
+
 comentario.delete("/deletar/:id", blogController.DeletarComentario);
 
 export default comentario;
